@@ -1,0 +1,8 @@
+1. Installed " npm install react-app project-name"
+2. Installed " npm install node-sass --save" 
+3. Installed " npm install --save react-dom"
+4. Installed " npm install react-bootstrap bootstrap"
+5. Linked Bootstrap CDN to index.html file.
+6. Installed " npm install react-router-dom"
+7. Imported Bootstrap to App.js 
+8. Installed " npm install --save styled-components"

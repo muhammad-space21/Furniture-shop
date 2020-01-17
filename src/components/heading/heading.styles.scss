@@ -1,0 +1,24 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    //position: relative;
+
+    .offer-heading {
+        font-size: 48px;
+        color: white;
+        margin-left: 60px;
+    }
+
+    .quality {
+        color: #F09898;
+        border-bottom: #F09898 dotted 10px;
+        border-bottom-width: 3px;
+        margin-left: 60px;
+        font-size: 40px;
+        padding-bottom: 8px;
+        font-family: 'Bowlby One SC', cursive;
+    }
+}

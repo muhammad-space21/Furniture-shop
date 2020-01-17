@@ -1,0 +1,35 @@
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    //font-family: 'Nunito Sans', sans-serif;
+    //font-weight: 500;
+
+    .primary {
+        width: 130px;
+        height: 45px;
+        border-radius: 0px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 50px; 
+        color: #212226;
+        background-color: #C78347;
+        border-color: #C78347;
+        margin-top: 50px;
+        //font-family: 'Nunito Sans', sans-serif;
+        //font-weight: 500;
+    }
+    .outline {
+        width: 130px;
+        height: 45px;
+        border-radius: 0px;
+        font-size: 12px;
+        margin-top: 50px;
+        color:#C78347;
+        border-color: #C78347;
+        margin-left: 15px;
+        //font-weight: 500;
+    }
+}

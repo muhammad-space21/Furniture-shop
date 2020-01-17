@@ -1,0 +1,64 @@
+.header-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    .img-1 {
+        //width: 250px;
+        //height: 433px;
+            img {
+                width: 250px;
+                height: 433px;
+                margin-top: 48.5px;
+                margin-bottom: 48.5px;
+                padding-right: 40px;
+                margin-left: 150px;
+                transition: 3s;
+                overflow: hidden;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+            
+    
+    .img-2 {
+        //width: 250px;
+        //height: 433px;
+        img {
+            width: 250px;
+            height: 433px;
+            margin-bottom: 20px;
+            margin-top: 77px;
+            padding-right: 40px;
+            transition: 3s;
+            overflow: hidden;
+            &:hover {
+                transform: scale(1.1);
+            }
+
+        }
+
+    }
+
+    
+    .img-3 {
+        //width: 250px;
+        //height: 433px;
+            img {
+                width: 250px;
+                height: 433px;
+                margin-top: 48.5px;
+                margin-bottom: 48.5px;
+                padding-right: 40px;
+                transition: 3s;
+                overflow: hidden;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            
+            }
+    }
+    
+}
