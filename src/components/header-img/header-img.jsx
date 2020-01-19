@@ -10,7 +10,7 @@ import  Img3  from '../../assets/images/main.page/img.main3.jpg';
 
 
 const HeaderImg = () => (
-    <div className='header-img' >
+    <div className='header-img'>
         <div className='img-1'>
             <img src={ Img1 } alt='img1' />
         </div>

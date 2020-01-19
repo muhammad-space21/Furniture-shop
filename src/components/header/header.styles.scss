@@ -9,4 +9,8 @@
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
 
+    @media screen and ( max-width:700px ) {
+        background-image: url(../../assets/images/main.page/header.main.webp);
+        background-repeat: no-repeat;
+    }
 }

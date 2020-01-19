@@ -3,23 +3,26 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
-    //font-family: 'Nunito Sans', sans-serif;
-    //font-weight: 500;
+    justify-content: flex-start;
 
     .primary {
         width: 130px;
         height: 45px;
         border-radius: 0px;
         font-size: 12px;
-        font-weight: 500;
         margin-left: 50px; 
         color: #212226;
         background-color: #C78347;
         border-color: #C78347;
         margin-top: 50px;
-        //font-family: 'Nunito Sans', sans-serif;
-        //font-weight: 500;
+        &:hover {
+            background-color: rgb(192, 113, 44);
+            color: #212226;
+            border-color: rgb(192, 113, 44);
+        }
+        @media screen and ( max-width: 768px ) {
+            margin-left: 105px;
+        }
     }
     .outline {
         width: 130px;
@@ -31,5 +34,11 @@
         border-color: #C78347;
         margin-left: 15px;
         //font-weight: 500;
+        &:hover {
+            border-color: rgb(192, 113, 44);
+            color: rgb(192, 113, 44);
+            background-color: #212226;
+
+        }
     }
 }

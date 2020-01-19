@@ -7,9 +7,6 @@ import Homepage from './pages/homepage/homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
-  constructor() {
-    super();
-  }
 
   render () {
   return (

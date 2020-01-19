@@ -1,15 +1,25 @@
 .heading {
+    @media screen and ( max-width: 768px ) {
+        align-items: center;
+    }
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    //position: relative;
 
     .offer-heading {
         font-size: 48px;
         color: white;
         margin-left: 60px;
+
+        @media screen and ( max-width: 768px ) {
+            font-size: 38px;
+            text-align: center;
+            margin-left: 110px;
+        }
+    
     }
 
     .quality {
@@ -20,5 +30,12 @@
         font-size: 40px;
         padding-bottom: 8px;
         font-family: 'Bowlby One SC', cursive;
+
+        @media screen and ( max-width: 768px ) {
+            font-size: 30px;
+            align-items: center;
+            margin-left: 110px;
+        }
+    
     }
 }
