@@ -3,9 +3,8 @@
     height: 262px;
     border: none;
     margin-top: 100px;
-    //margin-right: 20px;
-    //margin-left: -50px;//c
-    //padding-left: 100px;
+    margin-right: 40px;
+    
 
     .image-holder {
         width: 250.7px;
@@ -37,4 +36,25 @@
         background-color:rgb(211, 188, 168);
         box-shadow: 6px 5px 15px #cdcdcd;
     }
+}
+.first-row-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(#CDCDCD 20%, transparent 20%);
+    background-size: 20px 20px;
+    margin-left: 100px;
+}
+.second-row-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(#CDCDCD 20%, transparent 20%);
+    background-size: 20px 20px;
+    margin-right: 100px;
+    margin-top: 60px;
 }

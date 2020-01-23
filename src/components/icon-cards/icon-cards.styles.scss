@@ -1,0 +1,33 @@
+.icon-cards {
+    margin-top: 50px;
+    .cards-body {
+        width: 230px;
+        height: 224px;
+        box-shadow: 6px 5px 15px #cdcdcd;
+        border: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transition: 2s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        .rounded-cards {
+            width: 210px;
+            height: 194px;
+            margin-top: 15px;
+            border-radius: 25px;
+            background-color: hsla(223, 24%, 85%, 0.13);
+            img {
+                padding-top: 20px;
+                margin-bottom: 20px;
+                width: 72px;
+            }
+            .cards-text {
+                font-size: 14px;
+                color: #707070;
+            }
+        }
+    }
+}

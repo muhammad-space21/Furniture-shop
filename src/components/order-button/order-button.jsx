@@ -15,7 +15,7 @@ class OrderButton extends React.Component {
     render () {
         return (
             <div className='order-button'>
-            <Button className='primary custom' variant='primary'  type='submit' onClick={this.handleClick}>
+            <Button className='primary custom' variant='primary' text='SUBSCRIBE'  type='submit' onClick={this.handleClick}>
                 ORDER
             </Button>
             </div>

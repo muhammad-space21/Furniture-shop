@@ -1,0 +1,25 @@
+.comments-part-two {
+    width: 100%; 
+    height: 510px; 
+    background-color: #352E36;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    img {
+        width: 462px;
+        height: 292px;
+        margin-top: -50px;
+        margin-left: 100px;
+        transition: 2s;
+
+        &:hover {
+        transform: scale(1.1);
+    }
+    }
+    .comments-text-two {
+        color: #F0F0F0;
+        line-height: 1.9rem;
+        margin-top: 150px;
+    }
+}
