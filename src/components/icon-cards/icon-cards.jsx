@@ -14,9 +14,11 @@ import ButtonLong from '../button-long/button-long';
 const IconCards = () => (
     <Container>
         <div className='icon-cards'>
-            <h1 className='marketing-heading'>
-            Why to choose our products  
-            </h1>
+                <div className='marketing-heading'>
+                <h1>
+                Why to choose our products  
+                </h1>
+            </div>
             <Row>
                 <Col><div className='cards-body'>
                         <div className='rounded-cards' >

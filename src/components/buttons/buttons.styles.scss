@@ -1,3 +1,7 @@
+$btn-hover: #c0712c;
+$btn-primary: #C78347;
+$btn-shadow: 3px 3px 12px #9e8d7d;
+
 
 .buttons {
     display: flex;
@@ -12,13 +16,13 @@
         font-size: 12px;
         margin-left: 50px; 
         color: #212226;
-        background-color: #C78347;
-        border-color: #C78347;
+        background-color: $btn-primary;
+        border-color: $btn-primary;
         margin-top: 50px;
         &:hover {
-            background-color: rgb(192, 113, 44);
+            background-color: $btn-hover;
             color: #212226;
-            border-color: rgb(192, 113, 44);
+            border-color: $btn-hover;
         }
         @media screen and ( max-width: 768px ) {
             margin-left: 105px;
@@ -30,13 +34,12 @@
         border-radius: 0px;
         font-size: 12px;
         margin-top: 50px;
-        color:#C78347;
-        border-color: #C78347;
+        color: $btn-primary;
+        border-color: $btn-primary;
         margin-left: 15px;
-        //font-weight: 500;
         &:hover {
-            border-color: rgb(192, 113, 44);
-            color: rgb(192, 113, 44);
+            border-color: $btn-hover;
+            color: $btn-hover;
             background-color: #212226;
 
         }

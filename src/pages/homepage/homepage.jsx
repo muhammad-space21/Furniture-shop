@@ -9,7 +9,7 @@ import Gallery from '../../components/gallery/gallery';
 import Footer from '../../components/footer/footer';
 
 
-const Homepage = () => (
+const HomePage = () => (
     <div className='homepage'>
         <Header />
         <Catalog />
@@ -20,4 +20,4 @@ const Homepage = () => (
     </div>
 );
 
-export default Homepage;
+export default HomePage;

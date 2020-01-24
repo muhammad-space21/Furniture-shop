@@ -1,3 +1,8 @@
+$btn-hover: #c0712c;
+$btn-primary: #C78347;
+$btn-shadow: 3px 3px 12px #9e8d7d;
+
+
 .order-button {
 
     .custom {
@@ -6,18 +11,19 @@
         border-radius: 0px;
         font-size: 7.5px;
         font-weight: bold;
-        background-color: #C78347;
-        border-color: #C78347;
+        background-color: $btn-primary;
+        border-color: $btn-primary;
         color: #212226;
         opacity: none;
         margin-top: 14.5px;
         margin-bottom: 14.5px;
         margin-left: 150px;
-        box-shadow: 3px 3px 12px #9e8d7d;
+        box-shadow: $btn-shadow;
+
         &:hover {
-            background-color: #c0712c;
+            background-color: $btn-hover;
             color: #212226;
-            border-color: rgb(192, 113, 44);
+            border-color: $btn-hover;
         }
     }
 }

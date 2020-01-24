@@ -9,7 +9,6 @@ import IconCards from '../icon-cards/icon-cards';
 const MarketingPage = () => (
     <div className='marketing-page'>
         <IconCards />
-        {/* <ButtonLong /> */}
     </div>
 );
 

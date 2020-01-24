@@ -1,5 +1,27 @@
+$btn-hover: #c0712c;
+$btn-primary: #C78347;
+
+
+
+
 .icon-cards {
     margin-top: 50px;
+
+        .marketing-heading {
+                text-align: center;
+                padding-bottom: 60px;
+                h1 {
+                    color: #707070;
+                    font-size: 25px;
+                    font-weight: 500;
+                    &:hover {
+                        color: #c0712c;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+        
     .cards-body {
         width: 230px;
         height: 224px;
@@ -10,9 +32,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         transition: 2s;
+
             &:hover {
                 transform: scale(1.1);
             }
+
         .rounded-cards {
             width: 210px;
             height: 194px;

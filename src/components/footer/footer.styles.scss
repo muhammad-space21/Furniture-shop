@@ -1,33 +1,51 @@
+$btn-hover: #c0712c;
+$btn-primary: #C78347;
+$btn-shadow: 3px 3px 12px #9e8d7d;
+$text-color: #CDCDCD;
+
+@mixin hover-text {
+    &:hover {
+        color: $btn-hover;
+        cursor: pointer
+    }
+
+}
+
 .footer {
     width: 100%;
+    max-width: auto;
     height: 370px;
     background-color: #212226;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
+    
 
         h1 {
             font-size: 14px;
-            color:#CDCDCD;
+            color: $text-color;
             font-weight: 500;
             padding-top: 80px;
-            //padding-left: 60px;
+            @include hover-text;
         }
         p {
             font-size: 12px;
-            color: #CDCDCD; 
+            color: $text-color; 
             padding-top: 80px;
-            //padding-left: 60px;
+            @include hover-text;
+
         }
         h3 {
-            font-size: 14px;
-            color: #CDCDCD;
+            font-size: 14px; 
+            color: $text-color;
             padding-top: 174px;
-            //padding-left: 60px;
+            @include hover-text;
+    
         }
 
         .contact-us {
-            margin-left: -30px;
+            //margin-left: -30px;
         }
         .customer-service {
             margin-left: 30px;
@@ -45,8 +63,9 @@
             }
             h4 {
                 font-size: 14px;
-                color: #CDCDCD;
+                color: $text-color;
                 font-weight: 500;
+                @include hover-text;
             }
             .custom {
                 width: 80px;
@@ -70,7 +89,7 @@
                 margin-top: 50px;
                 margin-bottom: 30px;
                 &:hover {
-                    color: rgb(192, 113, 44);
+                    color: $btn-hover; //error
                 }
 
             }
@@ -78,12 +97,13 @@
         .map {
             opacity: 0.6;
             overflow: hidden;
+            margin-right: -50px;
 
             .location {
                 width: 220px;
                 height: 200px;
-                margin-left: 40px;
                 transition: 2s;
+                overflow: hidden;
                 
                     &:hover {
                     transform: scale(1.1);
@@ -93,16 +113,29 @@
 
         }
         .button-top {
-            width: 50px;
-            height: 50px;
             margin-top: 100px;
-            //margin-left: 60px;
-            //margin-right: -20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            
+            h6 {
+                color: $text-color;
+                font-size: 10px;
+                margin-top: 20px;
+                margin-right: -50px;
+                @include hover-text;
+                
+            
+            }
             img {
                 width: 50px;
                 height: 50px;
+                margin-left: 20px;
+                margin-right: -50px;
+
                 &:hover {
-                    border-color: rgb(192, 113, 44);
+                    color: $btn-hover;
                 }
             }
         }
