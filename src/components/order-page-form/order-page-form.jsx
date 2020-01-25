@@ -7,8 +7,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ImageLeft from '../../assets/images/others/furniture3.jpg';
 import ProgressBarForm  from '../progress-bar/progress-bar';
 import NameEmailForm from '../name-email-form/name-email-form';
+import SelectBar from '../select-bar/select-bar';
 import ButtonLong from '../button-long/button-long';
-
+import Textarea  from '../textarea/textarea';
 
 
 
@@ -24,7 +25,11 @@ const OrderPageForm = () => (
                 <Col>
                     <ProgressBarForm />
                     <NameEmailForm />
-                    <ButtonLong />
+                    <SelectBar />
+                    <Textarea/>
+                    <div className='button-long-holder'>
+                        <ButtonLong />
+                    </div>
                 </Col>
             </Row>
         </Container>
