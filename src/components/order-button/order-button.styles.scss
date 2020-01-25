@@ -19,7 +19,11 @@ $btn-shadow: 3px 3px 12px #9e8d7d;
         margin-bottom: 14.5px;
         margin-left: 150px;
         box-shadow: $btn-shadow;
-
+        &:focus {
+            border-color: $btn-hover;
+            background-color: $btn-hover;
+            box-shadow: $btn-shadow;
+        }
         &:hover {
             background-color: $btn-hover;
             color: #212226;

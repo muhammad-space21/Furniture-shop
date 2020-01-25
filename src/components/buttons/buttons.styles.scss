@@ -1,6 +1,6 @@
 $btn-hover: #c0712c;
 $btn-primary: #C78347;
-$btn-shadow: 3px 3px 12px #9e8d7d;
+$btn-shadow: 3px 3px 12px #141414;
 
 
 .buttons {
@@ -24,6 +24,11 @@ $btn-shadow: 3px 3px 12px #9e8d7d;
             color: #212226;
             border-color: $btn-hover;
         }
+        &:focus {
+            border-color: $btn-hover;
+            background-color: $btn-hover;
+            box-shadow: $btn-shadow;
+        }
         @media screen and ( max-width: 768px ) {
             margin-left: 105px;
         }
@@ -39,9 +44,14 @@ $btn-shadow: 3px 3px 12px #9e8d7d;
         margin-left: 15px;
         &:hover {
             border-color: $btn-hover;
-            color: $btn-hover;
+            color: #212226;
+            background-color: $btn-hover;
+        }
+        &:focus {
+            border-color: $btn-hover;
+            box-shadow: $btn-shadow;
             background-color: #212226;
-
+            color: $btn-hover;
         }
     }
 }

@@ -13,6 +13,9 @@
         font-size: 48px;
         color: white;
         margin-left: 60px;
+        &:hover {
+            color: rgb(204, 196, 196);
+        }
 
         @media screen and ( max-width: 768px ) {
             font-size: 38px;
@@ -30,6 +33,12 @@
         font-size: 40px;
         padding-bottom: 8px;
         font-family: 'Bowlby One SC', cursive;
+            &:hover {
+                color: rgb(235, 114, 114);
+                border-bottom: dotted 10px rgb(235, 114, 114);
+                border-bottom-width: 3px;
+
+            }
 
         @media screen and ( max-width: 768px ) {
             font-size: 30px;

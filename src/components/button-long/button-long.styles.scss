@@ -8,7 +8,7 @@ $btn-shadow: 3px 3px 12px #9e8d7d;
 
     .primary-long {
         box-shadow: $btn-shadow;
-        width: 347px;
+        width: 309.5px;
         height: 45px;
         border-radius: 0px;
         font-size: 12px;
@@ -19,11 +19,17 @@ $btn-shadow: 3px 3px 12px #9e8d7d;
         margin-top: 100px;
         font-weight: 1000;
         
-
         &:hover {
             background-color: $btn-hover;
             color: #212226;
             border-color: $btn-hover;
+            cursor: pointer;
+        }
+
+        &:focus {
+            border-color: $btn-hover;
+            box-shadow: $btn-shadow;
+            background-color: $btn-hover;
         }
     }
 }
