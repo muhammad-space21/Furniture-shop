@@ -75,7 +75,7 @@ const Cards = () => (
                     </div>  
                 </Col>
                 <Col>
-                    <div className='cards'>
+                    <div className='cards' id='cards-second-row'>
                         <div className='image-holder'>
                             <img className='image' src={Image6} alt='Image6' />
                         </div>

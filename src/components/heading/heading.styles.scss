@@ -1,6 +1,7 @@
 .heading {
     @media screen and ( max-width: 768px ) {
         align-items: center;
+        margin-top: 200px;
     }
 
     display: flex;
@@ -13,6 +14,7 @@
         font-size: 48px;
         color: white;
         margin-left: 60px;
+    
         &:hover {
             color: rgb(204, 196, 196);
         }

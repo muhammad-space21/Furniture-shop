@@ -3,7 +3,6 @@ import React from 'react';
 import './marketing.styles.scss';
 
 import IconCards from '../icon-cards/icon-cards';
-// import ButtonLong from '../button-long/button-long';
 
 
 const MarketingPage = () => (

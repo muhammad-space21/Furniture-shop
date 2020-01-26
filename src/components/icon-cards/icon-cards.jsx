@@ -66,7 +66,9 @@ const IconCards = () => (
                 </Col>
             </Row>
     </div>
-    <ButtonLong />
+    <div className='btn-lg-holder'>
+        <ButtonLong />
+    </div>
     </Container>
 );
 
