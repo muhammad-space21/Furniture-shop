@@ -53,7 +53,7 @@ const IconCards = () => (
                         </div>
                     </div>
                 </Col>
-                <Col><div className='cards-body'>
+                <Col><div className='cards-body' id='last-card'>
                         <div className='rounded-cards' >
                             <img src={IconFour} alt="IconFour"/>
                             <p className='cards-text'>

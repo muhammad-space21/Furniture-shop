@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
 
+
     .main-image {
         width: 442px;
         height: 346px;
@@ -15,6 +16,10 @@
         transition: all ease 2s;
         &:hover {
             transform: scale(1.1);
+        }
+
+        @media screen and ( max-width: 768px ) {
+            margin-left: 10px;
         }
             img {
                 width: 442px;
@@ -27,6 +32,12 @@
     .secondary-images-part-one {
         margin-top: 190px;
         margin-left: 50px;
+
+        @media screen and ( max-width: 768px ) {
+            margin-top: 100px;
+            margin-left: 20px;
+        }
+
 
         img {
             width: 177px;
@@ -43,6 +54,11 @@
     }
     .secondary-images-part-two {
         margin-left: 50px;
+
+        @media screen and ( max-width: 768px ) {
+            margin-left: 20px;
+        }
+
 
         img {
             width: 177px;

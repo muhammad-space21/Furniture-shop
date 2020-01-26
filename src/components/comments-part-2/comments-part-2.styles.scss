@@ -7,6 +7,14 @@
     flex-direction: row;
     justify-content: flex-start;
     
+
+    .arrow-right {
+        width: 25px;
+        height: 20px;
+        margin-left: 30rem;
+        margin-top: -20px;
+        transition: 1s;
+    }
     img {
         width: 462px;
         height: 292px;
@@ -18,10 +26,18 @@
         &:hover {
         transform: scale(1.1);
     }
+
+    @media screen and ( max-width: 768px ) {
+        margin-left: 0px;
+    }
     }
     .comments-text-two {
         color: #F0F0F0;
         line-height: 1.9rem;
         margin-top: 150px;
+
+        // @media screen and ( max-width: 768px ) {
+        //     margin-bottom: 100px;
+        // }
     }
 }

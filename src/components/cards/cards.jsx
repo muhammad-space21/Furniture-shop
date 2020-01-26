@@ -17,7 +17,7 @@ const Cards = () => (
     <Container>
         <div className='first-row-cards'>
             <Row>
-                <Col>
+                <Col lg={4} md={4} sm={6} xs={12} >
                     <div className='cards'>
                         <div className='image-holder'>
                             <img className='image' src={Image1} alt='Image1' />
@@ -28,7 +28,7 @@ const Cards = () => (
                         </div>
                     </div> 
                 </Col>
-                <Col>
+                <Col lg={4} md={4} sm={6} xs={12} >
                     <div className='cards'>
                         <div className='image-holder'>
                             <img className='image' src={Image2} alt='Image2' />
@@ -39,7 +39,7 @@ const Cards = () => (
                         </div>  
                     </div>  
                 </Col>
-                <Col>
+                <Col lg={4} md={4} sm={6} xs={12} >
                     <div className='cards'>
                         <div className='image-holder'>
                             <img className='image' src={Image3} alt='Image3' />
@@ -54,7 +54,7 @@ const Cards = () => (
         </div>
         <div className='second-row-cards'>
             <Row>
-            <Col>
+                <Col lg={4} md={4} sm={6} xs={12} >
                     <div className='cards'>
                         <div className='image-holder'>
                             <img className='image' src={Image4} alt='Image4' />
@@ -64,7 +64,7 @@ const Cards = () => (
                         </div>
                     </div> 
                 </Col>
-                <Col>
+                <Col lg={4} md={4} sm={6} xs={12} >
                     <div className='cards'>
                         <div className='image-holder'>
                             <img className='image' src={Image5} alt='Image5' />
@@ -74,7 +74,7 @@ const Cards = () => (
                         </div>  
                     </div>  
                 </Col>
-                <Col>
+                <Col lg={4} md={4} sm={6} xs={12} >
                     <div className='cards' id='cards-second-row'>
                         <div className='image-holder'>
                             <img className='image' src={Image6} alt='Image6' />

@@ -6,12 +6,23 @@ $btn-primary: #C78347;
 .btn-lg-holder {
     margin-bottom: 150px;
 }
+
 .icon-cards {
     margin-top: 50px;
+    margin-bottom: 50px;
+
+    @media screen and ( max-width: 768px  ) {
+        margin-left: 100px;
+    }
 
         .marketing-heading {
                 text-align: center;
                 padding-bottom: 60px;
+
+                @media screen and ( max-width: 768px ) {
+                    margin-left: -100px;
+                }
+
                 h1 {
                     color: #707070;
                     font-size: 25px;
@@ -33,6 +44,8 @@ $btn-primary: #C78347;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-bottom: 50px;
+
         transition: 2s;
 
             &:hover {
@@ -53,6 +66,10 @@ $btn-primary: #C78347;
             .cards-text {
                 font-size: 14px;
                 color: #707070;
+
+                &:hover {
+                    color: $btn-hover;
+                }
             }
         }
     }

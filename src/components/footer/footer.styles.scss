@@ -75,7 +75,18 @@ $text-color: #CDCDCD;
                 font-weight: 600;
                 margin-top: -30px;
                 margin-left: 180px;
+
+                @media screen and ( max-width: 768px ) {
+                    margin-left: 120px;
+                    margin-top: -20px;
+                    margin-bottom: 70px;
+                }
             }
+            @media screen and ( max-width: 768px ) {
+                margin-top: -60px;
+                margin-left: 40px;
+            }
+    
         }
         .social-media {
             display: flex;
@@ -112,6 +123,10 @@ $text-color: #CDCDCD;
                     opacity: 0.5;
                 }
             }
+            @media screen and ( max-width: 768px ) {
+                margin-left: 50px;
+                margin-bottom: 70px;
+            }
 
         }
         .button-top {
@@ -139,6 +154,9 @@ $text-color: #CDCDCD;
                 &:hover {
                     color: $btn-hover;
                 }
+            }
+            @media screen and ( max-width: 768px ) {
+                margin-right: 50px;
             }
         }
 }
