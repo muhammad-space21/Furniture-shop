@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './heading.styles.scss';
-import Buttons from '../buttons/buttons';
+import Buttons from '../Buttons';
 
 const Heading = () => (
     <div className='heading'>

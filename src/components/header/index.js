@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './header.styles.scss';
+import './styles.scss';
 import NavbarMain from '../navbar/navbar';
 import Heading from '../heading/heading';
 import HeaderImg from '../header-img/header-img';
