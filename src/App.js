@@ -3,9 +3,9 @@ import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
-import HomePage from './pages/homepage/homepage';
-import CommentPage from './pages/comment-page/comment-page';
-import OrderPage from './pages/order-page/order-page';
+import HomePage from './pages/Homepage';
+import CommentPage from './pages/CommentsPage';
+import OrderPage from './pages/OrderPage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,8 +16,8 @@ class App extends React.Component {
     <div className="App">
       <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route path='/comment-page' component={CommentPage} />
-        <Route path='/order-page' component={OrderPage} />
+        <Route exact path='/comment-page' component={CommentPage} />
+        <Route exact path='/order-page' component={OrderPage} />
       </Switch>
     </div>
   );

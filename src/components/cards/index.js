@@ -1,9 +1,9 @@
-import React from 'react';
+import React from './node_modules/react';
 
-import './cards.styles.scss';
+import './styles.scss';
 
-import { Container, Row, Col } from 'react-bootstrap';
-import OrderButton from '../order-button/order-button';
+import { Container, Row, Col } from './node_modules/react-bootstrap';
+import OrderButton from '../Buttons/OrderButton';
 
 
 import  Image1  from '../../assets/images/catalog/chair2.jpg';
@@ -87,6 +87,6 @@ const Cards = () => (
             </Row>
         </div>
     </Container>
-        )
+)
 
 export default Cards;
