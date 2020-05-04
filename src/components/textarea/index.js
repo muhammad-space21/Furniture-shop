@@ -1,8 +1,8 @@
-import React from './node_modules/react';
+import React from 'react';
 
 import './styles.scss';
 
-import { Form } from './node_modules/react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 
 class Textarea extends React.Component {

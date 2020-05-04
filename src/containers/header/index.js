@@ -1,10 +1,10 @@
-import React from './node_modules/react';
+import React from 'react';
 
 import './styles.scss';
 
-import NavbarMain from '../navbar';
-import Heading from '../heading';
-import HeaderImg from '../HeaderImg';
+import NavbarMain from '../../components/navbar';
+import Heading from '../../components/heading';
+import HeaderImg from '../../components/HeaderImg';
 
 const Header = () => (
     <div className='header'>

@@ -1,9 +1,9 @@
-import React from './node_modules/react';
+import React from 'react';
 
 import './styles.scss';
 
-import CommentsPartOne from '../CommentsPartOne';
-import CommentsPartTwo from '../CommentsPartTwo';
+import CommentsPartOne from '../../components/CommentsPartOne';
+import CommentsPartTwo from '../../components/CommentsPartTwo';
 
 
 

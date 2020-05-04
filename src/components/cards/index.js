@@ -1,8 +1,8 @@
-import React from './node_modules/react';
+import React from 'react';
 
 import './styles.scss';
 
-import { Container, Row, Col } from './node_modules/react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import OrderButton from '../Buttons/OrderButton';
 
 

@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import ProgressBarForm from '../ProgressBar';
 import NameEmailForm from '../NameEmailForm';
-import Textarea from '../Textarea';
+import Textarea from '../textarea';
 import ButtonLong from '../Buttons/ButtonLong';
 
 import ImageRight from '../../assets/images/others/furniture4.jpg';

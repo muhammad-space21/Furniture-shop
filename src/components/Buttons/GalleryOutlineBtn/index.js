@@ -2,8 +2,8 @@ import React from 'react';
 
 import './styles.scss';
 
-import OutlineButtonLeft from '../../assets/images/others/btn.left.PNG';
-import OutlineButtonRight from '../../assets/images/others/btn.right.PNG';
+import OutlineButtonLeft from '../../../assets/images/others/btn.left.PNG';
+import OutlineButtonRight from '../../../assets/images/others/btn.right.PNG';
 
 
 

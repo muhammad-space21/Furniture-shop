@@ -1,8 +1,8 @@
-import React from './node_modules/react';
+import React from 'react';
 
 import './styles.scss';
 
-import { Nav, Navbar }  from './node_modules/react-bootstrap';
+import { Nav, Navbar }  from 'react-bootstrap';
 
 import logo from '../../assets/images/main.page/brand.png';
 

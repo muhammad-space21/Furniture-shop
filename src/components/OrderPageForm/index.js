@@ -10,7 +10,7 @@ import ProgressBarForm  from '../ProgressBar';
 import NameEmailForm from '../NameEmailForm';
 import SelectBar from '../SelectBar';
 import ButtonLong from '../Buttons/ButtonLong';
-import Textarea  from '../Textarea';
+import Textarea  from '../textarea';
 
 
 

@@ -1,9 +1,9 @@
-import  React from './node_modules/react';
+import  React from 'react';
 
 import './styles.scss';
 
-import HeadingCenter from '../headingCenter';
-import Cards from '../cards';
+import HeadingCenter from '../../components/headingCenter';
+import Cards from '../../components/cards';
 
 
 const Catalog = () => (

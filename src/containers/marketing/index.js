@@ -1,8 +1,8 @@
-import React from './node_modules/react';
+import React from 'react';
 
 import './styles.scss';
 
-import IconCards from '../IconCards';
+import IconCards from '../../components/IconCards';
 
 
 const MarketingPage = () => (

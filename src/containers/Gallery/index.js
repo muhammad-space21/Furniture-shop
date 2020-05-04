@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.scss';
 
-import GalleryItems from '../GalleryItems';
+import GalleryItems from '../../components/GalleryItems';
 
 
 const Gallery = () => (
