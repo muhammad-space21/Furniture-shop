@@ -1,0 +1,38 @@
+
+.buttons {
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+	.primary {
+		width: 130px;
+		height: 45px;
+		border-radius: 0px;
+		font-size: 12px;
+		color: #212226;
+		background-color: #C78347;
+		border-color: #C78347;
+		margin-top: 50px;
+		&:hover {
+			background-color: rgb(192, 113, 44);
+			color: #212226;
+			border-color: rgb(192, 113, 44);
+		}
+	}
+	.outline {
+		width: 130px;
+		height: 45px;
+		border-radius: 0px;
+		font-size: 12px;
+		margin-top: 50px;
+		color:#C78347;
+		border-color: #C78347;
+		&:hover {
+			border-color: rgb(192, 113, 44);
+			background-color: rgb(192, 113, 44);
+			color: #212226;
+		}
+	}
+}
