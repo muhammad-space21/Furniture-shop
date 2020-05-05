@@ -2,8 +2,6 @@ import React from 'react';
 
 import './styles.scss';
 
-import { Container, Row, Col } from 'react-bootstrap';
-
 import MainImage from '../../assets/images/gallery images/main-image.jpg';
 import SecondaryImageOne  from '../../assets/images/gallery images/chair5.jpg';
 import SecondaryImageTwo from '../../assets/images/gallery images/sofa1.jpg';
@@ -14,28 +12,24 @@ import OutlineButton from '../Buttons/GalleryOutlineBtn';
 
 
 const GalleryItems = () => (
-    <Container>
-        <Row>
-            <div className='gallery-items'>
-                <Col>
-                    <div className='main-image'>
-                        <img src={MainImage} alt="MainImage"/>
-                    </div>
-                </Col>
-                <Col>
-                    <div className='secondary-images-part-one'>
-                        <img src={SecondaryImageOne} alt="SecondaryImageOne"/>
-                        <img src={SecondaryImageTwo} alt="SecondaryImageTwo"/>
-                    </div>
-                    <div className='secondary-images-part-two'>
-                        <img src={SecondaryImageThree} alt="SecondaryImageThree"/>
-                        <img src={SecondaryImageFour} alt="SecondaryImageFour"/>
-                    </div>
-                </Col>
-            </div>
-        </Row>
-        <OutlineButton />
-    </Container>
+  <>
+		<div className='gallery-items'>
+			<div className='main-image'>
+					<img src={MainImage} alt="MainImage"/>
+			</div>
+			<div className='secondary-images'>
+				<div className='secondary-images-part-one'>
+						<img src={SecondaryImageOne} alt="SecondaryImageOne"/>
+						<img src={SecondaryImageTwo} alt="SecondaryImageTwo"/>
+				</div>
+				<div className='secondary-images-part-two'>
+						<img src={SecondaryImageThree} alt="SecondaryImageThree"/>
+						<img src={SecondaryImageFour} alt="SecondaryImageFour"/>
+				</div>
+			</div>
+		</div>
+    <OutlineButton />
+  </>
 );
 
 
