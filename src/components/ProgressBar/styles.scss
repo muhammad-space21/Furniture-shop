@@ -3,23 +3,18 @@ $btn-primary: #C78347;
 $btn-shadow: 3px 3px 8px #e2dfdd;
 
 .progress-barr {
-    
-    border-radius: 7px;
-    box-shadow: $btn-shadow;
-    margin-top: 60px;
-    margin-left: 120px;
+	border-radius: 7px;
+	box-shadow: $btn-shadow;
+	margin-top: 60px;
 
-    .progress {
-        border-radius: 7px;
-        box-shadow: $btn-shadow;
-        
-            .progress-bar-striped {
-                background-color: $btn-primary;
-
-                    &:hover {
-                        background-color: $btn-hover;
-                    }
-                
-            }
-    }
+	.progress {
+		border-radius: 7px;
+		box-shadow: $btn-shadow;
+			.progress-bar-striped {
+				background-color: $btn-primary;
+				&:hover {
+					background-color: $btn-hover;
+				}	
+			}
+	}
 }
