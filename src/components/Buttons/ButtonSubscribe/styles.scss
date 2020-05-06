@@ -1,0 +1,29 @@
+$btn-hover: #c0712c;
+$btn-primary: #C78347;
+
+.custom {
+  width: 90px;
+  height: 35px;
+  border-radius: 0px;
+  font-size: 10px;
+  outline: none;
+  font-weight: bold;
+  background-color: $btn-primary;
+  border: none;
+  color: #212226;
+  opacity: none;
+  margin-top: 14.5px;
+  margin-bottom: 14.5px;
+  margin-left: 150px;
+  &:focus {
+    border-color: $btn-hover;
+    background-color: $btn-hover;
+    outline: none;
+  }
+  &:hover {
+    background-color: $btn-hover;
+    color: #212226;
+    border-color: $btn-hover;
+  }
+}
+

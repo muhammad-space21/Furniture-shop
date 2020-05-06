@@ -4,151 +4,149 @@ $btn-shadow: 3px 3px 12px #9e8d7d;
 $text-color: #CDCDCD;
 
 @mixin hover-text {
-    &:hover {
-        color: $btn-hover;
-        cursor: pointer
-    }
-
+	&:hover {
+		color: $btn-hover;
+		cursor: pointer
+	}
 }
 
 .footer {
-    width: 100%;
-    height: 100%;
-    background-color: #212226;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    
+	width: 100%;
+	height: 100%;
+	background-color: #212226;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 
-        h1 {
-            font-size: 14px;
-            color: $text-color;
-            font-weight: 500;
-            padding-top: 80px;
-            @include hover-text;
-        }
-        p {
-            font-size: 12px;
-            color: $text-color; 
-            padding-top: 80px;
-            @include hover-text;
+	.btn-holder {
+		margin-top: -35px;
+	}
+	.contact-us, .customer-service, .information {
+		width: fit-content;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		margin-top: 80px;
+		margin-left: 15px;
+		margin-right: 15px;
+		h5 {
+			line-height: 30px;
+			font-size: 12px;
+			color: $text-color;
+			@include hover-text;
+		}
+	}
 
-        }
-        h3 {
-            font-size: 14px; 
-            color: $text-color;
-            padding-top: 174px;
-            @include hover-text;
-    
-        }
-        .customer-service {
-            margin-left: 30px;
+	h1 {
+		font-size: 14px;
+		color: $text-color;
+		font-weight: 500;
+		@include hover-text;
+		margin-bottom: 50px;
+	}
 
-        }
-        .information {
-            margin-left: 30px;
+	.subscribe {
+		width: fit-content;
+		height: fit-content;
+		margin-bottom: 15px;
+		margin-left: 15px;
+		margin-right: 15px;
+		h5 {
+			font-size: 12px;
+			color: $text-color;
+			padding-top: 50px;
+			@include hover-text;
+		}
+		h3 {
+			font-size: 14px; 
+			color: $text-color;
+			margin-top: 154px;
+			@include hover-text;
+		}
+		h4 {
+			font-size: 14px;
+			color: $text-color;
+			font-weight: 500;
+			@include hover-text;
+			margin-top: 20px;
+		}
+		.custom-btn {
+			width: 80px;
+			height: 30px;
+			box-shadow: 2px 2px 2px #212226;
+			font-size: 8px;
+			font-weight: 600;
+		}
+}
 
-        }
-        .subscribe {
-            margin-left: 30px;
+	.social-media {
+		width: 80px;
+		display: flex;
+		align-self: flex-end;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 15px;
+		img {
+			width: 25px;
+			height: 25px;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+	.container-map-icons {
+		width: fit-content;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+		margin-left: 15px;
+		margin-right: 15px;
+		@media screen and (max-width: 940px) {
+			margin-bottom: 50px;
+		}
+	}
+	.map {
+		opacity: 0.6;
+		overflow: hidden;
 
-            p {
-                padding-top: 20px;
-            }
-            h4 {
-                font-size: 14px;
-                color: $text-color;
-                font-weight: 500;
-                @include hover-text;
-            }
-            .custom {
-                width: 80px;
-                height: 30px;
-                box-shadow: none;
-                font-size: 8px;
-                font-weight: 600;
-                margin-top: -30px;
-                margin-left: 180px;
+		.location {
+			width: 220px;
+			height: 200px;
+			transition: 2s;
+			overflow: hidden;
+			&:hover {
+				transform: scale(1.1);
+				opacity: 0.5;
+			}
+		}
+	}
 
-                @media screen and ( max-width: 768px ) {
-                    margin-left: 120px;
-                    margin-top: -20px;
-                    margin-bottom: 70px;
-                }
-            }
-            @media screen and ( max-width: 768px ) {
-                margin-top: -60px;
-                margin-left: 40px;
-            }
-    
-        }
-        .social-media {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            
-            img {
-                width: 25px;
-                height: 25px;
-                margin-left: 70px;
-                margin-right: -50px;
-                margin-top: 50px;
-                margin-bottom: 30px;
+	.button-top {
+		width: fit-content;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 100px;
+		@media screen and (max-width: 991px) {
+			margin-top: 50px;
+		}
 
-            }
-        }
-        .map {
-            opacity: 0.6;
-            overflow: hidden;
-            margin-right: -50px;
-            margin-bottom: 50px;
-
-            .location {
-                width: 220px;
-                height: 200px;
-                transition: 2s;
-                overflow: hidden;
-                
-                    &:hover {
-                    transform: scale(1.1);
-                    opacity: 0.5;
-                }
-            }
-            @media screen and ( max-width: 768px ) {
-                margin-left: 50px;
-                margin-bottom: 70px;
-            }
-
-        }
-        .button-top {
-            margin-top: 100px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            justify-content: flex-end;
-            
-            h6 {
-                color: $text-color;
-                font-size: 10px;
-                margin-top: 20px;
-                margin-right: -50px;
-                @include hover-text;
-                
-            
-            }
-            img {
-                width: 50px;
-                height: 50px;
-                margin-left: 20px;
-                margin-right: -50px;
-
-                &:hover {
-                    color: $btn-hover;
-                }
-            }
-            @media screen and ( max-width: 768px ) {
-                margin-right: 50px;
-            }
-        }
+		h6 {
+			color: $text-color;
+			font-size: 10px;
+			margin-top: 20px;
+			@include hover-text;
+		}
+		img {
+			width: 50px;
+			height: 50px;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
 }
