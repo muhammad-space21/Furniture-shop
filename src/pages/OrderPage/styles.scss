@@ -1,6 +1,25 @@
-.order-page-form {
-    .button-long-holder {
-        margin-top: -80px;
-        margin-left: 85px;
-    }
+.order-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container {
+	width: 45%;
+	height: 100%;
+	overflow: hidden;
+	@media screen and (max-width: 800px) {
+		display: none;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;            
+		transition: 5s;
+		object-fit: cover;
+		&:hover {
+			transform: scale(1.3);
+		}
+	}
 }
