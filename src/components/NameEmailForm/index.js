@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.scss';
 
-import { Form, Label, Control } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 
 
