@@ -6,9 +6,9 @@ import IconCards from '../../components/IconCards';
 
 
 const MarketingPage = () => (
-    <div className='marketing-page'>
-        <IconCards />
-    </div>
+	<div className='marketing-page'>
+		<IconCards />
+	</div>
 );
 
 export default MarketingPage;

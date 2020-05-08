@@ -5,25 +5,22 @@ import './styles.scss';
 import { Form } from 'react-bootstrap';
 
 
-
-class SelectBar extends React.Component {
-    render() {
-        return (
-            <div className='select-bar'>
-                <Form>
-                    <Form.Group controlId="exampleForm.ControlSelect1">
-                        <Form.Control className='select' as="select">
-                            <option>Bed</option>
-                            <option>Sofa</option>
-                            <option>Shelf</option>
-                            <option>Chair</option>
-                            <option>Bookshelf</option>
-                        </Form.Control>
-                    </Form.Group>
-                </Form>
-            </div>
-        );
-    }
+const SelectBar = () => {
+	return (
+		<div className='select-bar'>
+			<Form>
+				<Form.Group controlId="exampleForm.ControlSelect1">
+					<Form.Control className='select' as="select">
+						<option>Bed</option>
+						<option>Sofa</option>
+						<option>Shelf</option>
+						<option>Chair</option>
+						<option>Bookshelf</option>
+					</Form.Control>
+				</Form.Group>
+			</Form>
+		</div>
+	);
 };
 
 export default SelectBar;

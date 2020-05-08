@@ -49,27 +49,27 @@ $btn-primary: #C78347;
 		justify-content: center;
 		transition: 2s;
 		text-align: center;
-				&:hover {
-						transform: scale(1.1);
-				}
+		&:hover {
+			transform: scale(1.1);
+		}
 		.rounded-cards {
-				width: 210px;
-				height: 194px;
-				margin-top: 15px;
-				border-radius: 25px;
-				background-color: hsla(223, 24%, 85%, 0.13);
-				img {
-						padding-top: 20px;
-						margin-bottom: 20px;
-						width: 72px;
+			width: 210px;
+			height: 194px;
+			margin-top: 15px;
+			border-radius: 25px;
+			background-color: hsla(223, 24%, 85%, 0.13);
+			img {
+				padding-top: 20px;
+				margin-bottom: 20px;
+				width: 72px;
+			}
+			.cards-text {
+				font-size: 14px;
+				color: #707070;
+				&:hover {
+					color: $btn-hover;
 				}
-				.cards-text {
-						font-size: 14px;
-						color: #707070;
-						&:hover {
-								color: $btn-hover;
-						}
-				}
+			}
 		}
 	}
 }

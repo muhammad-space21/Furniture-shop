@@ -5,16 +5,15 @@ import './styles.scss';
 import { Form } from 'react-bootstrap';
 
 
-
 const NameEmailForm = () => (
-    <div className='name-email-form'>
-        <Form>
-            <Form.Group controlId="exampleForm.ControlInput1">
-            <Form.Control className='custom-input' type='name' placeholder="Name" />
-            <Form.Control className='custom-input' type="email" placeholder="name@example.com" />
-            </Form.Group>
-        </Form>
-    </div>
+	<div className='name-email-form'>
+		<Form>
+			<Form.Group controlId="exampleForm.ControlInput1">
+			<Form.Control className='custom-input' type='name' placeholder="Name" />
+			<Form.Control className='custom-input' type="email" placeholder="name@example.com" />
+			</Form.Group>
+		</Form>
+	</div>
 );
 
 export default NameEmailForm;

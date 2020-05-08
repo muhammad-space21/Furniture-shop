@@ -6,7 +6,6 @@ import { Nav, Navbar }  from 'react-bootstrap';
 
 import logo from '../../assets/images/main.page/brand.png';
 
-
 const NavbarMain = () => (
 	<>
 		<Navbar className='navbar-main' collapseOnSelect expand="lg" variant="default">
@@ -34,10 +33,5 @@ const NavbarMain = () => (
 		</Navbar>
 	</> 
 );    
-
-
-
-    
-            
 
 export default NavbarMain;

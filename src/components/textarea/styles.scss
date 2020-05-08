@@ -4,37 +4,36 @@ $btn-shadow: 3px 3px 20px #ddd9d6;
 
 
 .textarea {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 
+	.textarea-input {
+		width: 309.5px;
+		height: 120px;
+		border-color: $btn-primary;
+		border-radius: 0px;
+		margin-top: 30px;
+		outline: none;
 
-    .textarea-input {
-        width: 309.5px;
-        height: 120px;
-        border-color: $btn-primary;
-        border-radius: 0px;
-        margin-top: 30px;
-        outline: none;
+		&::placeholder {
+			color: $btn-primary;
+			font-family: 'Nunito Sans', sans-serif;
+			font-size: 14px;
+			&:hover {
+				color: $btn-hover;
+				cursor: pointer;
+			}
+		}
 
-        &::placeholder {
-            color: $btn-primary;
-            font-family: 'Nunito Sans', sans-serif;
-            font-size: 14px;
-            &:hover {
-                color: $btn-hover;
-                cursor: pointer;
-            }
-        }
-
-        &:hover {
-            cursor: pointer;
-        }
-        &:focus {
-            border-color: $btn-hover;
-            box-shadow: $btn-shadow;
-        }
-    }
+			&:hover {
+				cursor: pointer;
+			}
+			&:focus {
+				border-color: $btn-hover;
+				box-shadow: $btn-shadow;
+			}
+	}
 }

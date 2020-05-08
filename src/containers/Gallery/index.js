@@ -1,15 +1,22 @@
 import React from 'react';
 
-import './styles.scss';
-
 import GalleryItems from '../../components/GalleryItems';
+
+const style = {
+	width: '100%',
+	height: '100%',
+	backgroundColor: '#EFF2FA',
+	display: 'flex',
+	flexDirection: 'column',
+	alignItems: 'center',
+	justifyContent: 'center'
+}
 
 
 const Gallery = () => (
-    <div className='gallery'>
-        <GalleryItems />
-    </div>
+	<div style={style}>
+		<GalleryItems />
+	</div>
 );
-
 
 export default  Gallery;

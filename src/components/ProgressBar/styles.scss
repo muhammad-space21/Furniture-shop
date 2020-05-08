@@ -10,11 +10,11 @@ $btn-shadow: 3px 3px 8px #e2dfdd;
 	.progress {
 		border-radius: 7px;
 		box-shadow: $btn-shadow;
-			.progress-bar-striped {
-				background-color: $btn-primary;
-				&:hover {
-					background-color: $btn-hover;
-				}	
-			}
+		.progress-bar-striped {
+			background-color: $btn-primary;
+			&:hover {
+				background-color: $btn-hover;
+			}	
+		}
 	}
 }

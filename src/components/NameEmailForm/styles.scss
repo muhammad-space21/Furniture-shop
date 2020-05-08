@@ -3,35 +3,35 @@ $btn-primary: #C78347;
 $btn-shadow: 3px 3px 8px #ddd9d6;
 
 .name-email-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-        .custom-input {
-            width: 309.5px;
-            height: 39.5px;
-            border-color: $btn-primary;
-            border-radius: 0px;
-            margin-top: 50px;
-            outline: none;
+	.custom-input {
+		width: 309.5px;
+		height: 39.5px;
+		border-color: $btn-primary;
+		border-radius: 0px;
+		margin-top: 50px;
+		outline: none;
 
-            &::placeholder {
-                color: $btn-primary;
-                font-family: 'Nunito Sans', sans-serif;
-                font-size: 14px;
-                &:hover {
-                    color: $btn-hover;
-                    cursor: pointer;
-                }
-            }
-    
-            &:hover {
-                cursor: pointer;
-            }
-            &:focus {
-                border-color: $btn-hover;
-                box-shadow: $btn-shadow;
-            }
-        }
+		&::placeholder {
+			color: $btn-primary;
+			font-family: 'Nunito Sans', sans-serif;
+			font-size: 14px;
+			&:hover {
+				color: $btn-hover;
+				cursor: pointer;
+			}
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
+		&:focus {
+			border-color: $btn-hover;
+			box-shadow: $btn-shadow;
+		}
+	}
 }
