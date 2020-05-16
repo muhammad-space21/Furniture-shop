@@ -12,12 +12,10 @@
 	}
 	
 	.button-long-holder {
+		width: 100%;
 		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		margin-top: 70px;
-		margin-left: 20px;
+		margin-top: 40px;
 	}
 }

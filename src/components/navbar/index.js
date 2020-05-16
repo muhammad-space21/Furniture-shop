@@ -5,6 +5,7 @@ import './styles.scss';
 import { Nav, Navbar }  from 'react-bootstrap';
 
 import logo from '../../assets/images/main.page/brand.png';
+import IconMenu from '../../assets/icons/menu-icon.png';
 
 const NavbarMain = () => (
 	<>
@@ -14,7 +15,9 @@ const NavbarMain = () => (
 					<img src={logo} alt='logo'/>
 				</div>
 			</Navbar.Brand>
-			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+			<Navbar.Toggle className='toggle' aria-controls="responsive-navbar-nav"> 
+				<div className='navbar-toggle'><img src={IconMenu} alt='icon-menu' /></div> 
+			</Navbar.Toggle>
 				<Navbar.Collapse className='collapse' aria-controls="responsive-navbar-nav">
 					<Nav className='ml-auto'>
 						<Nav.Item ><Nav.Link className='links' href="#">CATALOG</Nav.Link></Nav.Item> 

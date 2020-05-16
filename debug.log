@@ -1,0 +1,4 @@
+[0516/170008.912:ERROR:file_io.cc(89)] ReadExactly: expected 12544, observed 0
+[0516/170008.926:ERROR:crash_report_database_win.cc(445)] failed to read records
+[0516/170606.804:ERROR:file_io.cc(89)] ReadExactly: expected 12544, observed 0
+[0516/170606.817:ERROR:crash_report_database_win.cc(445)] failed to read records

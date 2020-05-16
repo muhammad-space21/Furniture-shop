@@ -15,24 +15,38 @@
 		background-color: #C78347;
 		border-color: #C78347;
 		margin-top: 50px;
+		border: none;
 		&:hover {
 			background-color: rgb(192, 113, 44);
 			color: #212226;
 			border-color: rgb(192, 113, 44);
+		}
+		&:focus {
+			background-color: rgb(192, 113, 44);
+			color: #212226;
+			border-color: rgb(192, 113, 44);
+			outline: none;
 		}
 	}
 	.outline {
 		width: 130px;
 		height: 45px;
 		border-radius: 0px;
+		border: 1.5px solid #C78347;
 		font-size: 12px;
 		margin-top: 50px;
-		color:#C78347;
-		border-color: #C78347;
+		color: #C78347;
+		background-color: transparent;
 		&:hover {
 			border-color: rgb(192, 113, 44);
 			background-color: rgb(192, 113, 44);
 			color: #212226;
+		}
+		&:focus {
+			border-color: rgb(192, 113, 44);
+			background-color: rgb(192, 113, 44);
+			color: #212226;
+			outline: none;
 		}
 	}
 }

@@ -2,15 +2,12 @@ import React from 'react';
 
 import './styles.scss';
 
-import { Button } from 'react-bootstrap';
-
-
 const OrderButton = () => {
 	return (
 		<div className='order-button'>
-			<Button className='primary custom' variant='primary'  type='submit' >
+			<button className='custom'  type='submit' >
 				ORDER
-			</Button>
+			</button>
 		</div>
 	)
 };

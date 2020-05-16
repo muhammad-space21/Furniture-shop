@@ -1,4 +1,8 @@
 
+.App {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 body {
   font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;

@@ -1,8 +1,25 @@
 $btn-hover: #c0712c;
 $btn-primary: #C78347;
 
+.ml-auto {
+	@media screen and (max-width: 991px) {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+}
 .collapse {
   background-color: #282931;
+	@media screen and (max-width: 991px) {
+		height: 400px;
+	} 
+}
+.toggle {
+	&:focus {
+		outline: none;
+	}
 }
 .navbar-main {
 	width: 100%;
@@ -13,6 +30,16 @@ $btn-primary: #C78347;
 		width: 170px;
 		height: 70px;
 	}
+	.navbar-toggle {
+		margin-top: 10px;
+		&:focus {
+			outline: none;
+		}
+		img {
+			width: 40px;
+			height: 25px;
+		}
+	}
 	.contacts {
 		font-size: 16px;
 		color: $btn-primary;
@@ -20,6 +47,9 @@ $btn-primary: #C78347;
 		margin-right: 40px;
 		&:hover {
 			color: $btn-hover;
+		}
+		@media screen and (max-width: 991px) {
+			margin: 0;
 		}
 }
 	.contact-email {
@@ -31,6 +61,9 @@ $btn-primary: #C78347;
 		&:hover {
 			color: $btn-hover;
 		}
+		@media screen and (max-width: 991px) {
+			margin: 0;
+		}
 	}
 	.links {
 		color: #696464;
@@ -39,6 +72,9 @@ $btn-primary: #C78347;
 		margin-top: 10px;
 		&:hover {
 			color: #CFD4E1;
+		}
+		@media screen and (max-width: 991px) {
+			margin: 0;
 		}
 	}
 }

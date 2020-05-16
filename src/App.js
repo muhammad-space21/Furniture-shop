@@ -19,8 +19,8 @@ class App extends React.Component {
         <ErrorBoundary>
           <Suspense fallback={<Spinner />}>
             <Route exact path='/' component={HomePage} />
-            <Route exact path='/comment-page' component={CommentPage} />
-            <Route exact path='/order-page' component={OrderPage} />
+            <Route exact path='/comment' component={CommentPage} />
+            <Route exact path='/order' component={OrderPage} />
           </Suspense>
         </ErrorBoundary>
       </Switch>

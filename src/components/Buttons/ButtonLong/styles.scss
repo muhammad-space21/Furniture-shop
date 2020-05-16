@@ -2,33 +2,27 @@ $btn-hover: #c0712c;
 $btn-primary: #C78347;
 $btn-shadow: 3px 3px 12px #9e8d7d;
 
-
-.button-long {
-  margin-right: 70px;
-
-	.primary-long {
-		box-shadow: $btn-shadow;
-		width: 309.5px;
-		height: 45px;
-		border-radius: 0px;
-		font-size: 12px;
-		margin-left: 50px; 
+.primary-long {
+	box-shadow: $btn-shadow;
+	width: 309.5px;
+	height: 45px;
+	border: none;
+	font-size: 12px;
+	color: #212226;
+	background-color: $btn-primary;
+	font-weight: 1000;
+	text-transform: uppercase;
+	&:hover {
+		background-color: $btn-hover;
 		color: #212226;
-		background-color: $btn-primary;
-		border-color: $btn-primary;
-		font-weight: 1000;
+		border-color: $btn-hover;
+		cursor: pointer;
+	}
 
-		&:hover {
-			background-color: $btn-hover;
-			color: #212226;
-			border-color: $btn-hover;
-			cursor: pointer;
-		}
-
-		&:focus {
-			border-color: $btn-hover;
-			box-shadow: $btn-shadow;
-			background-color: $btn-hover;
-		}
+	&:focus {
+		border-color: $btn-hover;
+		box-shadow: $btn-shadow;
+		background-color: $btn-hover;
+		outline: none;
 	}
 }

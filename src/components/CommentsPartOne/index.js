@@ -8,11 +8,15 @@ import ImageCommentOne from '../../assets/images/others/furniture2.jpg';
 
 const CommentsPartOne = () => (
   <div className='comments-part-one'>
-      <img className='image-comment-one' src={ImageCommentOne} alt=""/>
+		<div className='image-holder'>
+			<img src={ImageCommentOne} alt=""/>
+		</div>
+		<div className='comments-holder'>
 			<div className='comments'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada <br /> fames ac. </p>
-					<img src={ArrowRight} className='arrow-right' alt="ArrowRight"/>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac. </p>
+				<img src={ArrowRight} alt="ArrowRight"/>
 			</div>
+		</div>
   </div>
 );
 
