@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 import ImageCommentTwo from '../../assets/images/others/furniture1.jpg';
@@ -13,7 +13,9 @@ const CommentsPartTwo = () => (
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac. 
 					</p>
-					<img src={ArrowLeft} className='arrow-right' alt="ArrowLeft"/>
+					<Link to='/comment'>
+					<img src={ArrowLeft} alt="ArrowLeft" /> 
+				</Link>
 			</div>
 		</div>
 		<div className='image-holder'>

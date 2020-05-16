@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 import ArrowRight from '../../assets/images/others/arrow.right.png';
@@ -14,7 +14,9 @@ const CommentsPartOne = () => (
 		<div className='comments-holder'>
 			<div className='comments'>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac. </p>
-				<img src={ArrowRight} alt="ArrowRight"/>
+				<Link to='/comment'>
+					<img src={ArrowRight} alt="ArrowRight" /> 
+				</Link>
 			</div>
 		</div>
   </div>

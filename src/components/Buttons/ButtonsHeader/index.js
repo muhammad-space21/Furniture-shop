@@ -1,14 +1,15 @@
 import React from 'react';
 
 import './styles.scss';
-import { Button } from 'react-bootstrap';
+import history from '../../../history';
 
-
-const ButtonsHeader = () => (
-	<div className='buttons'>
-		<button className='primary'> ORDER </button>
-		<button  className='outline'> OUR WORKS </button>
-	</div>
-);
+const ButtonsHeader = () => {
+	return (
+		<div className='buttons'>
+			<button className='primary' onClick={() => history.push('/order') }> ORDER </button>
+			<button className='outline'> OUR WORKS </button>
+		</div>
+	)
+};
 
 export default ButtonsHeader;
